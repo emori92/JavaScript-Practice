@@ -4,9 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript チュートリアル</title>
+    <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
-    
+    <main>
+        <!-- DOM基礎 -->
+        <div id="first" type="test" placeholder="hoge" name="first">
+            <ul>
+                <li class="second">test01</li>
+                <li class="second">test02</li>
+                <li class="second">test03</li>
+            </ul>
+        </div>
+
+        <!-- イベント -->
+        <button id="btn-1" onclick="addText()">押してね！</button>
+        <button id="btn-2">押してね！</button>
+        <button id="btn-3">押してね！</button>
+        <div id="text-1"></div>
+        <div id="text-2"></div>
+        <div id="text-3"></div>
+
+        <!-- 要素追加 -->
+        <div id="grand-father">
+            <div id="parent">
+                <div id="target">
+                    おれ
+                </div>
+            </div>
+        </div>
+        <div id="div-list">
+            <div class="div-1">test-01</div>
+            <div class="div-2">test-02</div>
+            <div class="div-3">test-03</div>
+        </div>
+    </main>
     <script src="main.js"></script>
 </body>
 </html>

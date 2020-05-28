@@ -1,0 +1,33 @@
+/*
+BEM...CSSのclass命名ルール 
+    block: ブロック
+    element: ブロック内の要素           => [__]...アンダーバー2つ
+    modifier: elementに動きをつけたもの  => [_]...アンダーバー1つ
+
+例:
+    .block__element {
+        color: red;
+    }
+
+    .block_modifier {
+        color: pink;
+    }
+
+    .block__element_modifier {
+
+    }
+*/
+
+
+body {
+    background-color: brack;
+    .red {
+        color: red;
+    }
+    .blue {
+        color: blue;
+    }
+    .green {
+        color: green;
+    }
+}
